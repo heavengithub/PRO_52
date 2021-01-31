@@ -1,0 +1,98 @@
+h1{
+
+    color: black;
+    border:solid;
+    border-color:aqua;
+   
+}
+
+h2{
+
+    color: black;
+    
+}
+
+.Student{
+
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width:300px;
+    margin-right: 100px;
+
+}
+
+.Student:hover{
+
+    transform: scale(1.2);
+
+}
+
+.Name{
+
+display:flex;
+justify-content: space-between;
+
+}
+
+.Games{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.Player{
+
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width:1200px;
+
+}
+
+.Player:hover{
+
+    transform: scale(1.2);
+    
+}
+
+.SocialMedia{
+    
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width:500px;
+
+}
+
+.SocialMedia:hover{
+
+    transform: scale(1.2);
+
+}
+
+#scrollToTopBtn {
+
+    position:fixed;
+    width:100px;
+    height:100px;
+    bottom:40px;
+    right:40px;
+    background-color:white;
+    color:#FFF;
+    border-radius:100px;
+    text-align:center;
+
+}
+
+#scrollToTopBtn:hover{
+
+    transform: scale(1.2);
+
+}
+    
